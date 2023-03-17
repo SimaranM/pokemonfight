@@ -1,0 +1,38 @@
+.app {
+    text-align: center;
+}
+
+.main-container {
+    background-image: url("https://wallpapercave.com/wp/FfMjuWn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.search-container h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+input[type="text"] {
+    width: 30%;
+    background-color: rgba(12, 78, 131, 0.9);
+    border: none;
+    border-bottom: 3.5px solid #4d4205;
+    align-self: center;
+    padding: 10px 10px;
+}
+
+.pokename {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
