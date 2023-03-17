@@ -3,11 +3,12 @@ import "./App.css";
 import axios from "axios";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import Home from "./components/Home";
+import Card from "./components/Card";
 
 import Pokemon from "./components/Pokemon";
 import PokemonList from "./components/PokemonList";
 import PokemonInfo from "./components/PokemonInfo";
-import Fighting from "./components/fighting";
+import Fighting from "./components/Fighting";
 
 const App = () => {
     const [data, setData] = useState([]);

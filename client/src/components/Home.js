@@ -10,7 +10,7 @@ const Home = () => {
                 </div>
                 <div className='select-btn'>
                     <Link to='/pokelist'>Let's get started...</Link>
-                    <Link to='/fighting'>Just let me fight!...</Link>
+                    {/* <Link to='/fighting'>Just let me fight!...</Link> */}
                 </div>
             </div>
         </div>
