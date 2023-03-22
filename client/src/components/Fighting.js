@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import "./fighting.css";
-import axios from "axios";
+import axios from "../axiosClient";
 
 const PokemonFight = () => {
     const [result, setResult] = useState();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import axios from "axios";
+import axios from "./axiosClient";
 import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
 import Home from "./components/Home";
 import Card from "./components/Card";
@@ -15,7 +15,7 @@ const App = () => {
 
     const fetchData = async () => {
         await axios
-            .get(`https://pokemonfight-895z.onrender.com/pokemon/`)
+            .get(`http://localhost:3002/pokemon/`)
             .then((res) => setData(res.data))
             .catch((err) => console.log(err));
     };
