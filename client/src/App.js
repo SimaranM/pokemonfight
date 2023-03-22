@@ -15,7 +15,7 @@ const App = () => {
 
     const fetchData = async () => {
         await axios
-            .get(`http://localhost:3002/pokemon/`)
+            .get(`/pokemon/`)
             .then((res) => setData(res.data))
             .catch((err) => console.log(err));
     };
