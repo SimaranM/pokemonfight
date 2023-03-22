@@ -13,7 +13,7 @@ const PokemonFight = () => {
 
     const fetchPokemon = async () => {
         await axios
-            .get(`https://pokemonfight-895z.onrender.com/pokemon/`)
+            .get(`http://localhost:3002/pokemon/`)
             .then((res) => setPokemon(res.data))
             .catch((err) => console.log(err));
     };
